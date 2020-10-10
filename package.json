@@ -1,0 +1,20 @@
+{
+  "name": "node_selfserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxy982694/node_selfserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxy982694/node_selfserver/issues"
+  },
+  "homepage": "https://github.com/yxy982694/node_selfserver#readme"
+}
