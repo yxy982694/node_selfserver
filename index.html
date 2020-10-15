@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="divv">我是 测试 html</div>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+        var dataObj = {}
+        $('.divv').click((e) => {
+            e.dd = dataObj
+            e.dd.username = 'lisi'
+            e.dd.realname = '李四'
+        })
+        // setInterval(() => {
+        //     console.log(dataObj)
+        // }, 1000);
+    </script>
+</body>
+
+</html>
